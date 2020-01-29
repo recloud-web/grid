@@ -1,0 +1,39 @@
+* {
+  font-family: 'TT Norms Regular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.alert {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+  padding: 1.3rem 1.2rem;
+}
+
+.alert-icon { margin-right: 10px; }
+.alert-icon__light { color: rgba(255, 255, 255, 0.56); }
+.alert-icon__dark { color: #323232; }
+.alert-icon__white { color: #FFFFFF; }
+
+.alert-text {
+  font-size: 14px;
+  font-family: 'TT Norms Medium', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.alert-primary { background-color: #1889FF; }
+.alert-danger { background-color: #EA4C4C; }
+.alert-success { background-color: #4BBA56; }
+.alert-dark { background-color: #323232; }
+.alert-info { background-color: #17a2b8; }
+.alert-secondary { background-color: #e5e5e5;color: #656565; }
+.alert-light { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.56); }
+.alert-warning { background-color: #FFBE5D; color: #323232; }
