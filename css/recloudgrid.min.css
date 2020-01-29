@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-
+/* Уведомления */
 .alert {
   display: -webkit-flex;
   display: -ms-flex;
@@ -17,7 +17,7 @@
   padding: 1.3rem 1.2rem;
 }
 
-.alert-icon { margin-right: 10px; }
+.alert-icon { margin-right: 0.5rem; }
 .alert-icon__light { color: rgba(255, 255, 255, 0.56); }
 .alert-icon__dark { color: #323232; }
 .alert-icon__white { color: #FFFFFF; }
@@ -30,10 +30,39 @@
 }
 
 .alert-primary { background-color: #1889FF; }
-.alert-danger { background-color: #EA4C4C; }
+.alert-secondary { background-color: #C4C4C4; color: #565656; }
 .alert-success { background-color: #4BBA56; }
-.alert-dark { background-color: #323232; }
-.alert-info { background-color: #17a2b8; }
-.alert-secondary { background-color: #e5e5e5;color: #656565; }
-.alert-light { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.56); }
+.alert-danger { background-color: #EA4C4C; }
 .alert-warning { background-color: #FFBE5D; color: #323232; }
+.alert-info { background-color: #17a2b8; }
+.alert-light { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.56); }
+.alert-dark { background-color: #323232; }
+
+/* Кнопки */
+.btn {
+  border-radius: .15rem;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  font-family: 'TT Norms Medium', sans-serif;
+  font-size: 14px;
+}
+
+.btn svg { width: 1rem;margin-right: 0.15rem }
+
+.btn-primary { background-color: #1889FF; }
+.btn-secondary { background-color: #C4C4C4; color: #565656; }
+.btn-success { background-color: #4BBA56; }
+.btn-danger { background-color: #EA4C4C; }
+.btn-warning { background-color: #FFBE5D; color: #323232; }
+.btn-info { background-color: #17a2b8; }
+.btn-light { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.56); }
+.btn-dark { background-color: #323232; }
+
+.btn-primary:hover { background-color: #157CE7; }
+.btn-secondary:hover { background-color: #ABABAB; color: #565656; }
+.btn-success:hover { background-color: #3CA046; }
+.btn-danger:hover { background-color: #DA4040; }
+.btn-warning:hover { background-color: #EFB051; color: #323232; }
+.btn-info:hover { background-color: #138496; }
+.btn-light:hover { background-color: rgba(0, 0, 0, 0.2); color: rgba(0, 0, 0, 0.56); }
+.btn-dark:hover { background-color: #1C1C1C; }
