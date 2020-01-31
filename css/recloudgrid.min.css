@@ -2,6 +2,7 @@
   font-family: 'TT Norms Regular', sans-serif;
   font-weight: normal;
   font-style: normal;
+  outline: none !important;
 }
 
 /* Уведомления */
@@ -38,43 +39,48 @@
 .alert-light { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.56); }
 .alert-dark { background-color: #323232; }
 
-/* Кнопки */
-.btn {
-  border-radius: .15rem;
+
+/* Модальные окна */
+
+.modal-recloud-grid > .modal-dialog > .modal-content {
   border: none;
-  padding: 0.6rem 1.4rem;
-  font-family: 'TT Norms Medium', sans-serif;
-  font-size: 14px;
+  border-radius: 3px;
 }
 
-.btn:focus,
-.btn:active { box-shadow: none !important }
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-header {
+  padding: 0.5rem 1rem;
+  align-items: center;
+  border: none;
+}
 
-.btn svg { width: 1rem;margin-right: 0.15rem }
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-footer {
+  border: none;
+}
 
-.btn-primary { background-color: #1889FF; }
-.btn-secondary { background-color: #C4C4C4; color: #565656; }
-.btn-success { background-color: #4BBA56; }
-.btn-danger { background-color: #EA4C4C; }
-.btn-warning { background-color: #FFBE5D; color: #323232; }
-.btn-info { background-color: #17a2b8; }
-.btn-light { background-color: rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.56); }
-.btn-dark { background-color: #323232; }
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-body {
+  padding-top: 0;
+  font-family: 'TT Norms Medium', sans-serif;
+  font-size: 14px;
+  border: none;
+  color: rgba(0, 0, 0, 0.56);
+}
 
-.btn-primary:hover, .btn-primary:focus { background-color: #157CE7; }
-.btn-secondary:hover, .btn-secondary:focus { background-color: #ABABAB; color: #565656; }
-.btn-success:hover, .btn-success:focus  { background-color: #3CA046; }
-.btn-danger:hover, .btn-danger:focus  { background-color: #DA4040; }
-.btn-warning:hover, .btn-warning:focus  { background-color: #EFB051; color: #323232; }
-.btn-info:hover, .btn-info:focus  { background-color: #138496; }
-.btn-light:hover, .btn-light:focus  { background-color: rgba(0, 0, 0, 0.2); color: rgba(0, 0, 0, 0.56); }
-.btn-dark:hover, .btn-dark:focus  { background-color: #1C1C1C; }
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-body::-webkit-scrollbar {
+ width: 3px;
+ height: 3px;
+}
 
-.btn-primary:active, { background-color: #1889FF !important; }
-.btn-secondary:active { background-color: #C4C4C4 !important; color: #565656 !important; }
-.btn-success:active { background-color: #4BBA56 !important; }
-.btn-danger:active { background-color: #EA4C4C !important; }
-.btn-warning:active { background-color: #FFBE5D !important; color: #323232 !important; }
-.btn-info:active { background-color:   #17a2b8 !important; }
-.btn-light:active { background-color: rgba(0, 0, 0, 0.1) !important; color: rgba(0, 0, 0, 0.56) !important; }
-.btn-dark:active { backgro: ;und-color: #323232 !important; }
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-body::-webkit-scrollbar-thumb {
+	 height: 50px;
+   background-color: #C4C4C4;
+   border-radius: 3px;
+}
+
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-header > .modal-title {
+  font-family: 'TT Norms Bold', sans-serif;
+  font-size: 15px;
+}
+
+.modal-recloud-grid > .modal-dialog > .modal-content > .modal-header > .close > svg {
+  width: 17px;
+}
